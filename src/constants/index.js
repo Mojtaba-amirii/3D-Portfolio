@@ -15,14 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  chas,
+  sigma,
+  portfolio,
   threejs,
+  mujiColorLogo,
+  goconnect,
+  movieshop,
 } from "../assets";
 
 export const navLinks = [
@@ -50,11 +49,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Backend Developer",
     icon: creator,
   },
 ];
@@ -117,10 +116,10 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "Chas Academy",
+    icon: chas,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -130,12 +129,12 @@ const experiences = [
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    company_name: "Chas Academy",
+    icon: chas,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - Oct 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js, React Native and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -143,12 +142,12 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Sigma Technologies",
+    icon: sigma,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Oct 2023 - Jun 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using C#, Blazor and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -156,12 +155,12 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Muji FS-Hub",
+    icon: mujiColorLogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jun 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js, Next.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -198,37 +197,40 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "My Portfolio",
+    description: "My personal portfolio website.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "next.js",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
+    image: portfolio,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Go Connect",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for job openings, accommodation and social networking opportunities",
     tags: [
       {
-        name: "react",
+        name: "Blazor",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "C#",
         color: "green-text-gradient",
       },
       {
@@ -236,28 +238,28 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: goconnect,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Movie shop",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive movie renting platform that allows users to rent movies.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Mongo db",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: movieshop,
     source_code_link: "https://github.com/",
   },
 ];

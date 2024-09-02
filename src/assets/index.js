@@ -1,4 +1,5 @@
 import MujiLogo from "./MujiLogo.svg";
+import mujiColorLogo from "./logo-color.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -25,13 +26,19 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import chas from "./company/chas.png";
+import sigma from "./company/sigma.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import goconnect from "./goconnect.png";
 import tripguide from "./tripguide.png";
+import movieshop from "./movieshop.png";
+import portfolio from "./image.png";
 
 export {
   MujiLogo,
+  mujiColorLogo,
   backend,
   creator,
   mobile,
@@ -56,7 +63,12 @@ export {
   shopify,
   starbucks,
   tesla,
+  chas,
+  sigma,
   carrent,
+  portfolio,
   jobit,
+  goconnect,
   tripguide,
+  movieshop,
 };
