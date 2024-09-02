@@ -4,8 +4,19 @@
     "dictionaryDefinitions": [],
     "dictionaries": [],
     "words": [
+        "carrent",
         "drei",
-        "maath"
+        "frameloop",
+        "GLTF",
+        "imbx",
+        "jobit",
+        "maath",
+        "nextjs",
+        "reactjs",
+        "restapi",
+        "supabase",
+        "threejs",
+        "tripguide"
     ],
     "ignoreWords": [],
     "import": []
