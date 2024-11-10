@@ -66,6 +66,7 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
+          name="contact"
           ref={formRef}
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
@@ -81,6 +82,7 @@ const Contact = () => {
               className=" bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium "
               required
               aria-required
+              autoComplete="name"
             />
           </label>
           <label className="flex flex-col">
@@ -94,6 +96,7 @@ const Contact = () => {
               className=" bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium "
               required
               aria-required
+              autoComplete="email"
             />
           </label>
           <label className="flex flex-col">
@@ -108,6 +111,7 @@ const Contact = () => {
               className=" bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium "
               required
               aria-required
+              autoComplete="off"
             />
           </label>
           <button
