@@ -19,7 +19,7 @@ const App = () => {
         v7_relativeSplatPath: true,
       }}
     >
-      <div className=" relative z-0 bg-primary">
+      <section className=" relative z-0 bg-primary">
         <div className=" bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
@@ -33,7 +33,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
-      </div>
+      </section>
     </BrowserRouter>
   );
 };
