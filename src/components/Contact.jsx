@@ -1,6 +1,6 @@
-import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { useState, useRef } from "react";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
