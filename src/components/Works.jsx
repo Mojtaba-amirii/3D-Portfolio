@@ -12,11 +12,11 @@ const ProjectCard = ({
   description,
   tags,
   image,
-  source_code_Link,
+  source_code_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div className=" relative w-full h-[230px]">
+      <div className=" relative w-full h-57.5">
         <img
           src={image}
           alt={name}
@@ -24,7 +24,7 @@ const ProjectCard = ({
         />
         <div className=" absolute inset-0 flex justify-end m-3 card-img_hover ">
           <div
-            onClick={() => window.open(source_code_Link, "_blank")}
+            onClick={() => window.open(source_code_link, "_blank")}
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
           >
             <img
@@ -37,7 +37,7 @@ const ProjectCard = ({
         {/* this div can be live url to deployed project 
           <div className=" absolute inset-0 flex justify-end m-3 card-img_hover ">
             <div
-              onClick={() => window.open(source_code_Link, "_blank")}
+              onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
@@ -76,7 +76,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className=" mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] "
+          className=" mt-3 text-secondary text-[17px] max-w-3xl leading-7.5 "
         >
           Fallowing projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
