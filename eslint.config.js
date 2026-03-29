@@ -5,7 +5,14 @@ import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 
 export default [
-  { ignores: ["dist", "eslint.config.js"] },
+  {
+    ignores: [
+      "dist",
+      "eslint.config.js",
+      "postcss.config.js",
+      "vite.config.js",
+    ],
+  },
 
   {
     files: ["**/*.{js,jsx,mjs,cjs,ts,tsx}"],
@@ -40,6 +47,6 @@ export default [
       "react/prop-types": "off",
     },
 
-    settings: { react: { version: "detect" } },
+    settings: { react: { version: "19.2" } },
   },
 ];
