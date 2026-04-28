@@ -36,7 +36,7 @@ const Contact = () => {
           to_email: "mojtaba.a.amiri@outlook.com",
           message: form.message,
         },
-        "AGGjVxw02PiIwQS19"
+        "AGGjVxw02PiIwQS19",
       )
       .then(
         () => {
@@ -52,7 +52,7 @@ const Contact = () => {
         (error) => {
           console.error(error);
           alert("Something went wrong!");
-        }
+        },
       );
   };
 
