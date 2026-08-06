@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router";
 import {
   About,
   Contact,
@@ -13,12 +13,7 @@ import {
 
 const App = () => {
   return (
-    <BrowserRouter
-      future={{
-        v7_startTransition: true,
-        v7_relativeSplatPath: true,
-      }}
-    >
+    <BrowserRouter useTransitions>
       <section className=" relative z-0 bg-primary">
         <div className=" bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />

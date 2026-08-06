@@ -11,13 +11,13 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-    "@react-three/drei": "^10.7.7",
+    "@react-three/drei": "^10.7.8",
     "@react-three/fiber": "^9.7.0",
-    "framer-motion": "^12.43.0",
+    "framer-motion": "^13.0.0",
     "maath": "^0.10.8",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "react-router-dom": "^7.18.2",
+    "react-router": "^8.3.0",
     "react-vertical-timeline-component": "^4.0.0",
     "three": "^0.185.1"
   },
@@ -31,8 +31,8 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.3",
-    "globals": "^17.8.0",
-    "postcss": "^8.5.25",
+    "globals": "^17.9.0",
+    "postcss": "^8.5.26",
     "tailwindcss": "^4.3.3",
     "vite": "^8.2.0"
   }
